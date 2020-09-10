@@ -8,7 +8,7 @@ Though Hamming Code is already a very efficient error-correcting method, we were
            one, has to be the only intersection of other subsets
 Then we will take the intersection of every 2 subsets in each combination(among {1,2},{1,2,3},{3} the intersection will be 1,2,3) and make the intersection digits the parity bits for that combination, and then we will check which combination can have the parity bits checking with all data like the hamming-code diagram shown in the lecture. Eventually we will take the combination with the highest data efficiency, which would become the maximum efficiency for 10 digits in total.
 
-hammingCode.R
+hammingCode.R"
 Type in a number in the user interface in binary and the encrypted message will be shown using the Hamming Code algorithm. 
 The key of encrypting binary numbers using Hamming Code is using extra parity bits to allow the
 identification of a single error.
