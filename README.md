@@ -1,5 +1,7 @@
 # HammingCode
 
+Worked with Gorden Gao, Tom Han to design the following programs
+
 Crypto.java:
 Though Hamming Code is already a very efficient error-correcting method, we were trying to develop our own network by programming in Java. First the compiler would ask the user to type in the total number of digits (data+parity digits). If we type in 10, the computer will automatically generate all possibilities of combination of subsets in which each subset must satisfy the following conditions:
 
