@@ -25,6 +25,7 @@ identification of a single error.
      Example: A byte of data: 10011010
      Create the data word, leaving spaces for the parity bits: _ _ 1 _ 0 0 1 _ 1 0 1 0
   3. Calculate the parity for each parity bit (? represents the bit position being set):
+  
          ❏ Position 1 checks bits 1,3,5,7,9,11:
             ? _ 1 _ 0 0 1 _ 1 0 1 0. Even parity so set position 1 to a 0: 0 _ 1 _ 0 0 1 _ 1 0 1 0
             
