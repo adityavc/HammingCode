@@ -34,6 +34,8 @@ identification of a single error.
          ❏ Position 8 checks bits 8,9,10,11,12:
             0 1 1 1 0 0 1 ? 1 0 1 0. Even parity so set position 8 to a 0: 0 1 1 1 0 0 1 0 1 0 1 0
          ❏ Encrypted number: 011100101010.
+
+
 Suppose the word that was received was 011100101110, instead of 011100101010. The method is to
 verify each check bit. Write down all the incorrect parity bits. Doing so, you will discover that parity bits
 2 and 8 are incorrect. It is not an accident that 2 + 8 = 10, and that bit position 10 is the location of the
