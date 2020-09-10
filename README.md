@@ -2,10 +2,14 @@
 
 Crypto.java:
 Though Hamming Code is already a very efficient error-correcting method, we were trying to develop our own network by programming in Java. First the compiler would ask the user to type in the total number of digits (data+parity digits). If we type in 10, the computer will automatically generate all possibilities of combination of subsets in which each subset must satisfy the following conditions:
+
         1. At least one element belongs to another set
+        
         2. At most one element that belongs only to this subset
+        
         3. Every element except for the one in (2), except for at most
            one, has to be the only intersection of other subsets
+           
 Then we will take the intersection of every 2 subsets in each combination(among {1,2},{1,2,3},{3} the intersection will be 1,2,3) and make the intersection digits the parity bits for that combination, and then we will check which combination can have the parity bits checking with all data like the hamming-code diagram shown in the lecture. Eventually we will take the combination with the highest data efficiency, which would become the maximum efficiency for 10 digits in total.
 
 hammingCode.R"
